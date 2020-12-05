@@ -135,7 +135,6 @@ function update(){
 for (let i = 0; i < 100; i++){
     let f = new Cell(createId(), 10, 1);
     let point = new Point(f.x, f.y, f);
-    qt.insert(point);
 	food.push(f);
 }
 setInterval(update, 1000/60);
@@ -161,10 +160,7 @@ function broadcast(){
         offset += 2;
     }
     
-for (let i = 0; i < players.length; i++) {
-    const pId = players[i];
-    
-}
+
 players.forEach(e => {
     e.ws.send(msg);
 })
