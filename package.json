@@ -1,0 +1,23 @@
+{
+  "name": "agario-proj",
+  "version": "1.0.0",
+  "description": "agario project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "a",
+    "brilliant",
+    "idea",
+    "from",
+    "me"
+  ],
+  "author": "sidshash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.4.0"
+  }
+}
